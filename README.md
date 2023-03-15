@@ -24,8 +24,8 @@ __________________________________________________
 
 ### Links
 
-- [Solução]()
-- [GitHub Pages]()
+- [Solução](https://github.com/flaviafigueredo/desafio-react-base)
+- [GitHub Pages](https://desafio-react-base-6rh5ueaku-flaviafigueredo.vercel.app/)
 __________________________________________________
 
 ### Construído com
