@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import ColoredAndUppercaseComponent from './components/colored-and-uppercase-component/colored-and-uppercase-component';
+import Button from './components/button/button';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <ColoredAndUppercaseComponent text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus ipsam ea sequi, ab mollitia repellat ratione pariatur facilis distinctio cupiditate aspernatur quaerat. Debitis quas sunt aliquid ratione autem quod!" color="#7B68EE" textTransform="uppercase" />
+
+      <Button label="Clique aqui" />
     </div>
   );
 }
