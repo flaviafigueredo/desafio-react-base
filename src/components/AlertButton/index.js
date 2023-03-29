@@ -1,11 +1,11 @@
-import "./button.css"
+import "./index.css"
 
 const showLabel = ({label}) => {
     alert(`A label desse botão é: ${label}`)
 }
 
-const Button = ({label}) => {
+const AlertButton = ({label}) => {
     return <button className="btn" onClick={() => showLabel({label})}>{label}</button>
 }
 
-export default Button
+export default AlertButton
